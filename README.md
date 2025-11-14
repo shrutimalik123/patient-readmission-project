@@ -1,5 +1,5 @@
 # patient-readmission-project
-An entry level project
+An entry level project https://colab.research.google.com/drive/1UrzNlC9lS0sAE0BxYSXIjIC0dSMjDf3L?usp=sharing ( To view the graphs click this link)
 
 🏥 Patient Readmission Prediction
 Project Goal
