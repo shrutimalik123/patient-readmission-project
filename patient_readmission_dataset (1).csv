@@ -1,0 +1,1001 @@
+patient_id,age,gender,length_of_stay,num_medications,num_procedures,primary_diagnosis,discharge_disposition,readmitted
+1,69,Female,1,5,4,Hypertension,Against Advice,0
+2,32,Male,8,5,2,Heart Failure,Skilled Nursing,1
+3,89,Female,3,9,2,Pneumonia,Rehab,0
+4,78,Male,6,17,1,Pneumonia,Home,1
+5,38,Male,3,13,0,Heart Failure,Skilled Nursing,0
+6,41,Female,7,2,4,Asthma,Home,0
+7,20,Female,13,13,2,Heart Failure,Rehab,1
+8,39,Male,14,19,2,Pneumonia,Against Advice,1
+9,70,Female,7,3,4,Pneumonia,Home,0
+10,19,Female,12,10,0,Asthma,Home,0
+11,47,Female,9,2,1,Heart Failure,Skilled Nursing,0
+12,55,Female,5,13,2,Diabetes,Skilled Nursing,0
+13,19,Female,8,19,1,Diabetes,Rehab,1
+14,81,Other,10,17,3,Asthma,Home,0
+15,77,Female,10,14,0,Heart Failure,Home,0
+16,38,Female,8,12,3,Heart Failure,Home,1
+17,50,Other,1,12,3,Hypertension,Rehab,0
+18,75,Female,12,11,3,Pneumonia,Home,1
+19,39,Male,5,7,0,COPD,Skilled Nursing,0
+20,66,Male,3,4,0,Asthma,Home,1
+21,76,Male,1,19,4,COPD,Home,0
+22,59,Male,4,1,1,COPD,Home,0
+23,77,Female,8,3,1,Asthma,Rehab,0
+24,32,Female,3,13,4,Heart Failure,Home,0
+25,79,Female,10,15,4,Asthma,Home,0
+26,79,Male,2,2,3,COPD,Home,1
+27,64,Female,11,11,4,Pneumonia,Home,1
+28,79,Female,9,4,2,Pneumonia,Home,1
+29,68,Female,10,19,1,Pneumonia,Skilled Nursing,1
+30,72,Female,5,17,4,Heart Failure,Home,0
+31,81,Female,14,3,2,Diabetes,Home,0
+32,20,Male,7,18,2,Asthma,Skilled Nursing,0
+33,68,Female,11,8,2,Pneumonia,Against Advice,0
+34,24,Male,11,19,2,Asthma,Home,0
+35,38,Male,2,5,3,Pneumonia,Home,0
+36,56,Female,9,7,2,Heart Failure,Skilled Nursing,1
+37,35,Male,13,8,3,Diabetes,Against Advice,0
+38,21,Female,9,5,3,Diabetes,Rehab,0
+39,77,Male,4,17,2,Pneumonia,Home,0
+40,31,Female,4,5,1,Heart Failure,Home,0
+41,26,Male,6,4,2,Hypertension,Rehab,0
+42,70,Other,10,19,2,Asthma,Home,1
+43,19,Female,10,2,2,Asthma,Home,0
+44,77,Male,10,11,1,COPD,Skilled Nursing,1
+45,88,Female,6,13,0,Heart Failure,Home,1
+46,61,Other,12,15,0,COPD,Home,0
+47,25,Male,1,12,3,Pneumonia,Home,0
+48,64,Male,14,11,3,COPD,Home,0
+49,52,Female,14,7,1,Diabetes,Home,0
+50,53,Female,9,5,4,Asthma,Rehab,0
+51,67,Female,2,17,0,COPD,Home,0
+52,21,Female,5,9,3,Diabetes,Home,0
+53,19,Male,9,14,0,Heart Failure,Against Advice,1
+54,23,Male,4,12,1,COPD,Home,0
+55,71,Female,11,6,1,Pneumonia,Home,1
+56,21,Male,3,17,4,Pneumonia,Against Advice,0
+57,71,Male,7,19,4,Pneumonia,Rehab,1
+58,80,Female,6,19,1,Asthma,Home,0
+59,35,Female,8,16,3,COPD,Skilled Nursing,0
+60,61,Female,3,12,0,Heart Failure,Home,0
+61,51,Female,5,12,2,COPD,Rehab,0
+62,79,Female,10,6,4,Asthma,Home,1
+63,31,Female,4,4,2,Diabetes,Skilled Nursing,0
+64,65,Female,13,6,3,Asthma,Home,0
+65,32,Male,4,11,4,Pneumonia,Home,0
+66,89,Male,4,1,2,Diabetes,Home,1
+67,79,Female,10,15,3,Pneumonia,Home,0
+68,57,Female,8,11,0,Hypertension,Rehab,0
+69,70,Male,6,19,3,Asthma,Home,0
+70,41,Male,3,18,4,Asthma,Home,1
+71,43,Male,10,17,1,Heart Failure,Home,0
+72,77,Male,5,19,0,COPD,Home,0
+73,58,Female,6,14,2,Diabetes,Rehab,0
+74,46,Male,5,18,4,Diabetes,Skilled Nursing,0
+75,32,Female,6,19,1,Heart Failure,Home,0
+76,62,Female,8,15,3,Heart Failure,Skilled Nursing,1
+77,82,Female,7,15,1,COPD,Skilled Nursing,0
+78,88,Female,5,4,4,Pneumonia,Home,0
+79,26,Male,10,7,4,COPD,Home,1
+80,18,Female,6,13,1,Asthma,Skilled Nursing,0
+81,25,Male,14,3,3,Pneumonia,Home,0
+82,80,Male,4,16,1,Hypertension,Skilled Nursing,0
+83,28,Female,12,9,4,COPD,Home,0
+84,25,Male,9,8,4,Heart Failure,Home,1
+85,52,Male,13,13,2,Pneumonia,Home,0
+86,52,Female,4,17,2,COPD,Home,0
+87,50,Male,1,17,0,Diabetes,Against Advice,1
+88,22,Female,7,17,4,Hypertension,Home,0
+89,58,Male,7,1,2,Asthma,Home,0
+90,45,Female,4,8,1,Diabetes,Skilled Nursing,0
+91,24,Female,13,19,3,Diabetes,Home,1
+92,89,Female,14,6,1,Hypertension,Home,0
+93,29,Female,3,3,3,Asthma,Rehab,1
+94,51,Male,8,5,2,Heart Failure,Rehab,0
+95,50,Female,5,13,0,Pneumonia,Home,1
+96,65,Male,10,15,1,Asthma,Home,0
+97,40,Female,7,14,1,COPD,Home,0
+98,79,Male,4,16,1,Diabetes,Home,0
+99,54,Female,4,18,3,COPD,Home,0
+100,61,Male,8,11,2,Heart Failure,Home,1
+101,52,Female,14,3,1,COPD,Home,0
+102,82,Female,8,10,1,Asthma,Home,0
+103,64,Female,2,10,0,COPD,Home,0
+104,20,Male,14,16,0,Heart Failure,Home,1
+105,18,Female,2,12,2,Heart Failure,Skilled Nursing,0
+106,22,Male,3,2,2,Heart Failure,Rehab,0
+107,31,Male,12,9,4,Asthma,Home,0
+108,44,Male,12,3,0,Heart Failure,Home,1
+109,26,Male,3,15,4,Diabetes,Home,1
+110,32,Female,1,3,3,Heart Failure,Home,0
+111,59,Female,14,19,4,COPD,Home,0
+112,68,Male,3,18,1,Pneumonia,Home,0
+113,80,Male,6,8,4,COPD,Home,0
+114,69,Male,8,17,2,Pneumonia,Skilled Nursing,0
+115,21,Male,13,8,3,COPD,Home,0
+116,40,Other,12,7,1,Asthma,Home,0
+117,32,Male,14,7,4,COPD,Skilled Nursing,0
+118,60,Male,10,3,3,Asthma,Home,1
+119,46,Male,6,1,3,Asthma,Home,0
+120,53,Female,5,4,1,Heart Failure,Home,0
+121,30,Other,4,5,4,Diabetes,Home,0
+122,49,Female,3,1,3,Pneumonia,Rehab,0
+123,88,Female,13,15,3,Heart Failure,Home,1
+124,76,Female,4,5,0,Heart Failure,Home,0
+125,45,Male,14,13,3,Asthma,Home,0
+126,83,Female,7,8,0,Asthma,Home,0
+127,59,Female,1,8,4,Pneumonia,Skilled Nursing,0
+128,62,Female,7,5,4,COPD,Rehab,1
+129,79,Female,1,9,4,COPD,Home,0
+130,74,Female,2,1,2,Heart Failure,Home,1
+131,23,Female,4,4,4,Hypertension,Home,0
+132,45,Other,1,3,3,Hypertension,Skilled Nursing,0
+133,45,Female,11,2,1,COPD,Home,0
+134,61,Female,12,8,0,Hypertension,Home,0
+135,47,Female,11,9,2,COPD,Home,0
+136,79,Male,11,2,4,Asthma,Home,0
+137,79,Female,9,14,4,Heart Failure,Home,0
+138,18,Male,12,14,1,Diabetes,Home,0
+139,44,Female,6,4,1,Heart Failure,Home,0
+140,79,Other,13,6,2,COPD,Home,0
+141,20,Female,1,11,0,COPD,Home,0
+142,87,Male,1,3,4,Heart Failure,Skilled Nursing,1
+143,89,Male,6,8,2,Pneumonia,Home,0
+144,44,Male,4,3,3,COPD,Home,1
+145,26,Female,4,14,3,Hypertension,Home,0
+146,79,Male,11,13,2,Hypertension,Home,1
+147,54,Male,6,13,4,COPD,Home,0
+148,68,Male,14,2,2,COPD,Skilled Nursing,0
+149,61,Female,12,13,4,Pneumonia,Home,0
+150,41,Female,11,19,1,Hypertension,Skilled Nursing,0
+151,76,Male,7,6,2,COPD,Home,0
+152,49,Male,9,16,4,COPD,Home,0
+153,69,Female,10,2,2,Pneumonia,Home,0
+154,79,Female,5,8,2,Pneumonia,Home,1
+155,75,Female,9,17,4,Heart Failure,Rehab,1
+156,69,Male,4,2,4,Pneumonia,Rehab,0
+157,29,Female,13,10,0,Diabetes,Skilled Nursing,0
+158,56,Female,10,16,2,Hypertension,Against Advice,1
+159,19,Female,2,6,3,Heart Failure,Rehab,0
+160,20,Female,3,2,2,Diabetes,Home,0
+161,73,Male,13,2,2,COPD,Home,0
+162,76,Male,11,13,4,COPD,Home,0
+163,19,Female,1,15,2,Heart Failure,Home,0
+164,19,Female,14,2,2,Pneumonia,Rehab,0
+165,71,Female,14,7,3,COPD,Home,0
+166,18,Female,6,3,4,Asthma,Home,0
+167,36,Female,13,8,2,Heart Failure,Home,0
+168,19,Female,6,14,1,Diabetes,Home,1
+169,70,Male,1,7,0,Heart Failure,Home,1
+170,61,Female,11,7,3,Hypertension,Home,0
+171,49,Male,13,1,2,Pneumonia,Home,0
+172,87,Male,3,17,1,Pneumonia,Home,0
+173,49,Other,5,9,2,Heart Failure,Home,1
+174,85,Male,3,13,2,COPD,Home,1
+175,72,Male,10,19,4,COPD,Home,0
+176,73,Male,3,19,4,Asthma,Home,1
+177,34,Female,14,17,4,Asthma,Home,0
+178,55,Male,10,10,1,Pneumonia,Home,1
+179,41,Male,3,10,2,Asthma,Home,1
+180,86,Male,5,4,0,Diabetes,Home,0
+181,87,Male,13,8,3,Asthma,Home,0
+182,28,Male,5,18,4,Diabetes,Home,0
+183,33,Male,4,14,4,Asthma,Home,1
+184,76,Female,1,18,2,Pneumonia,Skilled Nursing,0
+185,87,Male,5,14,2,Pneumonia,Home,1
+186,20,Male,10,15,1,Diabetes,Against Advice,0
+187,37,Male,5,4,1,Heart Failure,Home,0
+188,76,Male,4,13,4,Pneumonia,Home,1
+189,53,Female,6,8,2,Heart Failure,Home,0
+190,36,Female,10,18,0,COPD,Home,1
+191,84,Male,4,12,3,Diabetes,Home,0
+192,36,Male,14,14,2,Pneumonia,Home,0
+193,37,Male,7,2,2,Hypertension,Home,0
+194,88,Female,7,18,1,COPD,Home,1
+195,69,Female,2,2,3,Heart Failure,Home,0
+196,50,Female,3,11,4,Pneumonia,Home,0
+197,57,Male,1,9,2,Diabetes,Home,0
+198,56,Female,8,12,4,Asthma,Home,0
+199,18,Male,9,17,2,Hypertension,Rehab,0
+200,28,Male,4,15,4,Heart Failure,Skilled Nursing,0
+201,74,Male,6,17,3,COPD,Skilled Nursing,1
+202,67,Male,9,18,1,Diabetes,Home,1
+203,40,Female,6,6,3,Hypertension,Rehab,0
+204,48,Female,14,17,0,Diabetes,Skilled Nursing,0
+205,59,Male,12,18,1,Pneumonia,Home,0
+206,24,Female,12,8,3,Asthma,Home,0
+207,33,Other,12,9,0,COPD,Skilled Nursing,0
+208,77,Female,9,6,2,Diabetes,Home,0
+209,19,Female,4,5,2,Heart Failure,Home,0
+210,18,Female,8,12,4,Pneumonia,Home,1
+211,65,Other,9,11,1,Pneumonia,Home,0
+212,29,Female,4,1,2,COPD,Skilled Nursing,0
+213,86,Male,5,11,1,Pneumonia,Home,1
+214,54,Male,14,19,2,Heart Failure,Home,0
+215,49,Female,8,9,4,Diabetes,Home,0
+216,26,Male,12,2,3,COPD,Home,0
+217,36,Female,10,12,4,Pneumonia,Home,1
+218,65,Male,14,4,0,Pneumonia,Home,0
+219,20,Male,6,4,2,Heart Failure,Skilled Nursing,1
+220,37,Male,12,18,0,Asthma,Home,0
+221,41,Male,7,15,0,Asthma,Home,0
+222,71,Female,3,19,1,Pneumonia,Home,0
+223,50,Female,7,13,2,Diabetes,Home,0
+224,41,Female,12,19,0,COPD,Skilled Nursing,1
+225,89,Female,14,17,3,Pneumonia,Rehab,1
+226,53,Male,8,6,0,Hypertension,Rehab,0
+227,55,Female,10,16,3,COPD,Home,0
+228,42,Female,6,12,1,Asthma,Home,1
+229,35,Female,10,19,0,Pneumonia,Home,0
+230,83,Male,9,5,4,Heart Failure,Home,0
+231,71,Female,13,17,1,Hypertension,Rehab,0
+232,52,Female,6,1,3,Pneumonia,Skilled Nursing,0
+233,78,Other,12,10,1,Diabetes,Rehab,0
+234,58,Female,9,15,0,Hypertension,Skilled Nursing,0
+235,50,Male,13,11,2,Pneumonia,Rehab,0
+236,85,Female,4,13,2,Diabetes,Home,1
+237,50,Female,8,5,3,Hypertension,Home,0
+238,31,Male,11,1,3,Diabetes,Home,0
+239,38,Female,4,12,2,Diabetes,Home,0
+240,65,Female,2,11,3,Hypertension,Home,1
+241,37,Male,10,17,1,Hypertension,Home,0
+242,25,Male,11,4,4,Diabetes,Skilled Nursing,1
+243,24,Male,9,15,4,Asthma,Home,1
+244,84,Male,5,9,1,Hypertension,Rehab,0
+245,34,Male,4,19,4,Pneumonia,Skilled Nursing,0
+246,50,Female,2,19,0,COPD,Home,0
+247,65,Male,1,12,1,Heart Failure,Home,0
+248,76,Male,11,5,3,Diabetes,Home,1
+249,39,Female,7,10,1,Diabetes,Rehab,0
+250,47,Female,6,17,2,Heart Failure,Rehab,1
+251,55,Male,2,5,3,Asthma,Skilled Nursing,0
+252,68,Male,8,16,2,Heart Failure,Home,0
+253,71,Male,11,7,3,Hypertension,Home,0
+254,25,Female,4,9,4,Heart Failure,Home,0
+255,44,Male,8,3,1,Diabetes,Rehab,1
+256,44,Female,7,15,0,Heart Failure,Home,1
+257,38,Other,5,16,3,COPD,Home,0
+258,47,Male,10,18,3,Pneumonia,Home,1
+259,45,Female,10,14,2,Hypertension,Home,0
+260,81,Other,12,3,4,Heart Failure,Home,0
+261,86,Male,8,12,2,Diabetes,Home,0
+262,78,Female,14,9,2,Pneumonia,Home,1
+263,65,Female,9,7,4,Hypertension,Home,0
+264,36,Female,5,9,0,Diabetes,Rehab,0
+265,21,Female,10,13,2,Asthma,Skilled Nursing,0
+266,52,Female,5,18,2,COPD,Home,0
+267,81,Female,2,5,3,Asthma,Rehab,0
+268,66,Female,5,13,4,COPD,Home,0
+269,34,Female,3,4,1,Heart Failure,Home,0
+270,61,Female,7,2,0,Hypertension,Skilled Nursing,0
+271,47,Female,10,16,0,Heart Failure,Rehab,0
+272,63,Male,5,9,4,COPD,Skilled Nursing,0
+273,23,Male,8,9,3,COPD,Home,1
+274,54,Male,1,6,3,COPD,Home,0
+275,41,Male,3,11,4,Pneumonia,Skilled Nursing,0
+276,63,Male,3,1,3,Diabetes,Home,0
+277,70,Female,9,4,0,Hypertension,Home,0
+278,77,Male,5,13,0,Heart Failure,Rehab,0
+279,80,Female,12,13,1,Heart Failure,Skilled Nursing,0
+280,49,Male,9,13,4,Asthma,Skilled Nursing,0
+281,50,Female,13,2,2,COPD,Home,0
+282,84,Other,9,9,2,COPD,Skilled Nursing,0
+283,35,Male,1,8,1,COPD,Home,0
+284,42,Female,2,7,1,Heart Failure,Home,0
+285,71,Male,5,4,3,Asthma,Home,1
+286,75,Female,4,18,1,Diabetes,Home,0
+287,84,Male,10,3,1,Pneumonia,Home,1
+288,63,Female,9,6,2,Hypertension,Home,0
+289,41,Male,7,12,3,Diabetes,Home,1
+290,49,Female,6,12,1,Heart Failure,Home,0
+291,64,Female,7,8,1,Pneumonia,Home,0
+292,40,Male,1,1,3,Pneumonia,Home,0
+293,83,Male,1,4,4,Pneumonia,Home,1
+294,44,Male,8,11,3,COPD,Rehab,0
+295,19,Male,13,3,2,Hypertension,Rehab,0
+296,34,Female,13,13,4,Heart Failure,Home,1
+297,50,Male,2,17,0,Heart Failure,Skilled Nursing,1
+298,26,Male,12,10,3,Pneumonia,Home,0
+299,60,Male,10,12,2,Heart Failure,Home,0
+300,65,Female,11,15,4,Hypertension,Skilled Nursing,0
+301,56,Male,9,10,3,Hypertension,Home,0
+302,59,Male,7,14,1,Asthma,Against Advice,1
+303,43,Male,6,13,3,Asthma,Home,0
+304,67,Male,1,5,0,Diabetes,Rehab,0
+305,42,Female,1,6,3,Hypertension,Home,0
+306,41,Male,2,2,4,Hypertension,Home,0
+307,30,Male,6,17,4,Hypertension,Home,0
+308,77,Female,14,4,3,Asthma,Rehab,0
+309,24,Female,6,14,4,Pneumonia,Home,0
+310,74,Male,2,10,1,Pneumonia,Skilled Nursing,0
+311,53,Female,1,3,3,Heart Failure,Home,0
+312,62,Female,10,3,1,Pneumonia,Home,0
+313,37,Male,5,15,1,COPD,Home,0
+314,82,Female,5,6,2,Asthma,Home,1
+315,25,Female,2,17,3,Hypertension,Skilled Nursing,0
+316,33,Male,6,12,4,Pneumonia,Home,0
+317,31,Male,9,11,1,Asthma,Home,1
+318,32,Male,2,4,2,Pneumonia,Home,0
+319,83,Female,10,6,3,Diabetes,Home,0
+320,49,Other,2,1,3,Hypertension,Skilled Nursing,0
+321,80,Female,3,16,0,Diabetes,Home,1
+322,68,Male,13,15,0,Hypertension,Home,1
+323,42,Female,7,17,1,Asthma,Against Advice,1
+324,75,Female,6,8,0,Heart Failure,Skilled Nursing,0
+325,80,Male,12,12,1,Pneumonia,Home,0
+326,79,Male,8,10,4,Pneumonia,Home,0
+327,39,Female,8,15,1,COPD,Home,1
+328,75,Male,6,9,0,Diabetes,Home,1
+329,75,Female,12,2,4,Pneumonia,Skilled Nursing,0
+330,66,Male,11,5,0,Asthma,Home,0
+331,69,Male,10,6,1,Heart Failure,Home,0
+332,59,Male,3,7,2,Asthma,Home,1
+333,87,Male,3,1,3,Diabetes,Home,0
+334,32,Female,1,7,0,COPD,Home,0
+335,71,Male,7,12,1,Pneumonia,Home,1
+336,77,Female,5,16,4,Asthma,Home,1
+337,25,Female,4,16,0,Hypertension,Home,0
+338,70,Female,10,11,0,Heart Failure,Home,0
+339,77,Male,4,4,3,Asthma,Home,0
+340,22,Female,14,13,1,Heart Failure,Home,0
+341,85,Female,4,7,2,Pneumonia,Home,0
+342,23,Male,6,4,4,Hypertension,Home,1
+343,64,Male,8,15,1,COPD,Home,0
+344,72,Female,8,19,4,COPD,Home,0
+345,57,Other,5,9,0,Hypertension,Home,0
+346,69,Male,6,11,3,Heart Failure,Rehab,0
+347,33,Female,4,8,3,Pneumonia,Skilled Nursing,0
+348,30,Female,12,1,2,Asthma,Rehab,0
+349,47,Female,14,8,3,Hypertension,Home,0
+350,36,Other,11,13,0,Diabetes,Skilled Nursing,0
+351,34,Female,13,4,2,Heart Failure,Home,0
+352,80,Male,9,8,1,COPD,Home,1
+353,36,Male,8,3,3,Hypertension,Home,0
+354,75,Male,10,9,2,COPD,Skilled Nursing,0
+355,72,Female,12,2,0,Heart Failure,Home,0
+356,79,Female,10,2,4,COPD,Home,0
+357,40,Male,1,13,4,Hypertension,Rehab,0
+358,26,Female,2,15,0,Heart Failure,Skilled Nursing,1
+359,29,Female,9,12,0,Diabetes,Home,0
+360,18,Female,8,4,4,Hypertension,Home,1
+361,75,Male,14,8,2,Asthma,Home,1
+362,18,Female,3,9,4,Pneumonia,Rehab,0
+363,51,Male,8,5,0,Hypertension,Home,0
+364,65,Male,12,18,3,Heart Failure,Home,1
+365,18,Male,1,11,1,Pneumonia,Skilled Nursing,0
+366,33,Male,10,15,3,Hypertension,Home,1
+367,78,Male,4,9,3,Diabetes,Home,0
+368,81,Female,3,17,0,Diabetes,Home,0
+369,80,Male,6,12,4,Asthma,Home,0
+370,86,Female,7,7,2,COPD,Home,1
+371,39,Male,4,10,3,Pneumonia,Home,0
+372,84,Female,7,10,4,Heart Failure,Home,0
+373,43,Other,9,13,2,Heart Failure,Home,0
+374,33,Male,11,19,3,COPD,Home,0
+375,68,Male,2,11,2,Diabetes,Skilled Nursing,0
+376,74,Male,11,13,4,Diabetes,Against Advice,1
+377,46,Female,3,8,1,Hypertension,Home,0
+378,86,Female,5,8,4,Asthma,Home,0
+379,64,Male,3,4,0,Pneumonia,Home,1
+380,79,Female,11,15,2,Asthma,Skilled Nursing,0
+381,86,Male,8,11,1,Asthma,Home,1
+382,33,Male,12,11,2,Hypertension,Against Advice,0
+383,65,Female,10,1,2,Asthma,Home,0
+384,56,Male,8,17,3,COPD,Against Advice,0
+385,50,Female,8,15,0,Hypertension,Skilled Nursing,0
+386,40,Male,12,6,2,COPD,Skilled Nursing,0
+387,27,Other,12,15,4,Hypertension,Home,0
+388,86,Male,9,9,4,Asthma,Home,1
+389,51,Male,4,14,3,COPD,Home,0
+390,69,Female,5,18,0,COPD,Home,1
+391,27,Male,5,17,0,COPD,Home,0
+392,36,Other,8,18,4,Hypertension,Home,0
+393,75,Female,7,5,1,Heart Failure,Home,1
+394,18,Female,9,9,3,Asthma,Home,0
+395,86,Female,14,11,3,COPD,Home,0
+396,21,Female,8,1,4,Pneumonia,Home,0
+397,33,Female,2,18,4,Heart Failure,Against Advice,1
+398,41,Female,10,6,1,Pneumonia,Home,0
+399,19,Female,12,2,1,Asthma,Home,0
+400,49,Male,4,15,0,Asthma,Home,1
+401,41,Male,6,14,3,COPD,Skilled Nursing,0
+402,29,Female,12,5,3,COPD,Home,1
+403,67,Male,2,6,4,Hypertension,Home,0
+404,52,Female,7,6,0,Heart Failure,Home,1
+405,50,Male,3,18,3,Heart Failure,Home,1
+406,50,Male,13,14,0,COPD,Home,1
+407,78,Female,3,10,0,Asthma,Skilled Nursing,0
+408,68,Female,11,14,4,COPD,Against Advice,1
+409,60,Male,2,13,0,Asthma,Home,0
+410,29,Female,11,3,1,Asthma,Home,1
+411,84,Female,8,6,1,COPD,Home,0
+412,82,Male,6,8,2,Diabetes,Home,1
+413,50,Female,1,12,4,Heart Failure,Home,0
+414,57,Male,12,13,2,Pneumonia,Home,0
+415,60,Male,1,11,1,Asthma,Against Advice,1
+416,61,Other,7,12,2,Asthma,Skilled Nursing,0
+417,46,Male,8,1,4,Diabetes,Home,0
+418,30,Female,5,17,4,Pneumonia,Home,0
+419,29,Female,12,16,0,Hypertension,Home,0
+420,63,Male,11,11,3,Diabetes,Home,0
+421,19,Female,5,13,0,Pneumonia,Home,0
+422,52,Female,4,18,4,Diabetes,Home,0
+423,25,Male,14,11,1,Asthma,Skilled Nursing,0
+424,43,Female,6,12,1,Heart Failure,Rehab,0
+425,51,Female,14,6,0,Diabetes,Home,0
+426,24,Female,6,9,4,Hypertension,Home,0
+427,85,Female,3,16,1,COPD,Home,1
+428,75,Male,9,4,4,Pneumonia,Home,0
+429,46,Female,12,3,1,Diabetes,Home,1
+430,53,Female,11,16,4,Diabetes,Home,0
+431,38,Female,14,12,2,Hypertension,Home,0
+432,53,Female,7,11,4,Heart Failure,Home,0
+433,27,Female,1,5,4,Diabetes,Skilled Nursing,1
+434,41,Female,13,18,0,Diabetes,Home,0
+435,81,Female,7,19,2,Heart Failure,Home,1
+436,66,Female,5,6,3,Hypertension,Home,0
+437,53,Female,5,18,0,Pneumonia,Home,0
+438,41,Female,14,6,3,Pneumonia,Home,0
+439,40,Female,13,4,1,Diabetes,Against Advice,1
+440,79,Male,2,12,3,Heart Failure,Skilled Nursing,1
+441,54,Male,4,19,4,Diabetes,Home,0
+442,29,Male,12,2,3,COPD,Home,1
+443,72,Female,6,17,0,Pneumonia,Home,0
+444,30,Female,10,11,0,Asthma,Home,0
+445,40,Female,11,11,3,COPD,Rehab,0
+446,47,Male,7,16,0,Diabetes,Home,1
+447,34,Female,11,2,0,Hypertension,Home,0
+448,79,Male,5,2,3,Pneumonia,Home,0
+449,30,Male,9,8,2,Asthma,Home,0
+450,76,Female,3,13,2,COPD,Skilled Nursing,1
+451,36,Female,1,10,1,Pneumonia,Home,0
+452,66,Male,4,8,0,Heart Failure,Rehab,0
+453,29,Male,9,4,3,Hypertension,Home,0
+454,78,Male,4,15,0,COPD,Rehab,0
+455,36,Male,2,1,4,Heart Failure,Home,1
+456,26,Female,10,11,0,Diabetes,Home,1
+457,88,Male,14,7,0,Heart Failure,Skilled Nursing,0
+458,45,Female,14,17,2,COPD,Home,0
+459,69,Female,5,18,3,COPD,Home,0
+460,33,Male,3,12,0,Diabetes,Home,1
+461,86,Male,13,9,2,Heart Failure,Rehab,1
+462,29,Male,12,5,1,Heart Failure,Home,1
+463,42,Male,13,10,2,Diabetes,Skilled Nursing,1
+464,69,Male,9,4,2,Heart Failure,Home,0
+465,70,Female,4,5,2,Pneumonia,Home,0
+466,40,Male,6,10,0,Diabetes,Rehab,0
+467,33,Other,2,11,0,Hypertension,Home,0
+468,74,Male,6,10,1,COPD,Skilled Nursing,1
+469,56,Female,3,8,4,Hypertension,Against Advice,0
+470,70,Female,12,2,4,Pneumonia,Home,1
+471,59,Female,12,8,4,Pneumonia,Home,0
+472,75,Female,9,16,1,Asthma,Home,0
+473,56,Female,11,5,4,Asthma,Rehab,0
+474,31,Female,2,3,4,Asthma,Skilled Nursing,0
+475,22,Female,12,12,2,Diabetes,Home,0
+476,52,Female,12,13,0,Heart Failure,Home,0
+477,35,Male,9,13,0,Pneumonia,Home,1
+478,26,Male,5,10,2,Hypertension,Skilled Nursing,0
+479,75,Female,8,4,2,Hypertension,Home,0
+480,34,Female,2,9,2,Hypertension,Home,1
+481,24,Female,6,2,0,Hypertension,Home,0
+482,63,Female,3,19,4,Asthma,Skilled Nursing,0
+483,30,Other,12,1,2,Hypertension,Home,0
+484,57,Male,12,7,1,Heart Failure,Home,0
+485,59,Male,14,17,2,Asthma,Home,0
+486,26,Male,10,3,3,Hypertension,Home,0
+487,67,Male,5,3,2,Diabetes,Rehab,0
+488,44,Female,12,3,0,COPD,Against Advice,0
+489,83,Male,8,17,2,COPD,Home,0
+490,22,Female,10,7,3,COPD,Home,0
+491,46,Male,14,14,1,Asthma,Home,0
+492,54,Female,1,17,4,Hypertension,Home,0
+493,55,Female,5,18,2,Pneumonia,Skilled Nursing,0
+494,25,Male,3,13,3,Pneumonia,Home,0
+495,82,Female,4,18,3,Pneumonia,Home,0
+496,34,Male,2,4,1,Asthma,Home,0
+497,88,Male,9,1,0,Heart Failure,Home,1
+498,62,Male,3,18,2,Diabetes,Home,0
+499,21,Male,2,1,3,Diabetes,Home,0
+500,53,Male,10,13,1,COPD,Home,1
+501,87,Female,11,10,4,COPD,Rehab,1
+502,48,Female,9,11,3,Pneumonia,Home,0
+503,36,Female,7,9,1,Pneumonia,Home,1
+504,78,Male,6,9,0,COPD,Against Advice,0
+505,71,Female,1,5,0,Hypertension,Home,0
+506,56,Male,5,1,3,Heart Failure,Rehab,0
+507,36,Male,12,17,3,Heart Failure,Home,0
+508,56,Female,11,2,2,Heart Failure,Home,0
+509,84,Male,14,13,1,Heart Failure,Home,0
+510,62,Female,11,9,3,COPD,Home,0
+511,30,Female,3,4,2,Diabetes,Home,0
+512,75,Male,1,5,2,COPD,Skilled Nursing,0
+513,37,Male,4,11,3,Heart Failure,Home,0
+514,89,Male,13,19,0,COPD,Home,1
+515,78,Female,2,3,1,Heart Failure,Home,0
+516,56,Male,2,12,1,Asthma,Home,1
+517,18,Male,3,19,0,Pneumonia,Home,0
+518,20,Male,8,19,3,Diabetes,Home,1
+519,79,Female,8,13,1,Asthma,Rehab,0
+520,80,Male,12,7,3,Hypertension,Against Advice,0
+521,42,Male,7,15,3,COPD,Home,1
+522,73,Female,6,7,2,Hypertension,Home,0
+523,50,Female,9,8,0,COPD,Skilled Nursing,0
+524,55,Male,4,5,3,Pneumonia,Rehab,0
+525,23,Male,12,14,4,Asthma,Home,0
+526,75,Male,1,4,0,Pneumonia,Skilled Nursing,0
+527,61,Female,8,10,1,Heart Failure,Home,0
+528,62,Male,7,15,2,Pneumonia,Skilled Nursing,0
+529,49,Female,7,18,1,Pneumonia,Home,0
+530,62,Female,3,13,1,Heart Failure,Home,1
+531,78,Female,4,8,0,COPD,Skilled Nursing,0
+532,64,Male,10,9,1,Heart Failure,Home,0
+533,38,Female,9,16,3,Asthma,Home,1
+534,53,Female,6,19,1,Pneumonia,Home,0
+535,36,Female,5,16,2,Heart Failure,Against Advice,0
+536,37,Male,3,7,2,Pneumonia,Skilled Nursing,0
+537,74,Other,9,14,4,Asthma,Rehab,1
+538,35,Male,5,14,2,Hypertension,Home,0
+539,64,Male,5,4,1,Asthma,Skilled Nursing,0
+540,66,Male,14,15,2,Diabetes,Home,0
+541,31,Female,4,3,0,Diabetes,Home,0
+542,32,Male,14,5,2,Diabetes,Rehab,0
+543,48,Male,4,1,3,Pneumonia,Home,0
+544,18,Male,12,3,0,COPD,Home,0
+545,71,Male,1,15,4,COPD,Home,0
+546,20,Female,7,8,3,COPD,Home,0
+547,33,Female,9,4,1,Pneumonia,Skilled Nursing,0
+548,74,Male,3,2,1,Asthma,Home,0
+549,29,Male,12,10,1,COPD,Rehab,1
+550,33,Female,13,4,3,Hypertension,Home,1
+551,89,Male,2,3,3,Diabetes,Home,0
+552,41,Male,3,2,3,Asthma,Home,0
+553,45,Other,1,17,0,Diabetes,Rehab,0
+554,25,Female,6,13,0,COPD,Home,0
+555,53,Male,11,5,1,Asthma,Skilled Nursing,1
+556,25,Female,11,9,2,Heart Failure,Home,0
+557,75,Male,7,6,1,Hypertension,Home,0
+558,77,Female,11,5,4,COPD,Home,0
+559,67,Male,11,10,0,COPD,Skilled Nursing,0
+560,45,Male,2,8,3,Hypertension,Rehab,0
+561,58,Male,8,7,0,Hypertension,Home,0
+562,81,Female,14,7,3,Heart Failure,Home,0
+563,44,Female,6,6,4,COPD,Home,0
+564,80,Male,14,3,4,Pneumonia,Rehab,0
+565,34,Male,4,19,0,COPD,Home,1
+566,50,Female,5,15,3,Diabetes,Skilled Nursing,1
+567,46,Male,8,4,4,Asthma,Against Advice,1
+568,30,Male,14,12,1,Asthma,Home,0
+569,63,Other,3,6,1,Diabetes,Skilled Nursing,0
+570,52,Male,3,19,3,Asthma,Home,0
+571,23,Female,14,4,0,Hypertension,Home,0
+572,86,Other,14,15,4,Asthma,Home,0
+573,64,Male,11,9,0,Asthma,Home,0
+574,42,Male,4,5,1,Diabetes,Skilled Nursing,0
+575,83,Male,1,13,4,Heart Failure,Home,0
+576,27,Female,9,18,0,Asthma,Home,0
+577,73,Female,8,5,2,Pneumonia,Home,0
+578,47,Female,8,16,3,Asthma,Home,0
+579,22,Male,14,19,3,Heart Failure,Home,1
+580,50,Female,10,14,2,Diabetes,Home,0
+581,82,Female,6,16,1,Heart Failure,Home,0
+582,35,Female,7,15,4,Diabetes,Skilled Nursing,0
+583,66,Female,6,4,3,Hypertension,Skilled Nursing,1
+584,28,Female,9,7,2,Diabetes,Home,0
+585,43,Female,3,16,2,Hypertension,Skilled Nursing,0
+586,80,Female,14,8,1,Hypertension,Home,1
+587,76,Male,3,17,1,Diabetes,Home,0
+588,44,Male,3,16,0,Pneumonia,Home,0
+589,66,Female,10,10,3,COPD,Home,0
+590,50,Male,3,10,0,Diabetes,Home,0
+591,18,Female,9,2,2,Asthma,Rehab,0
+592,38,Other,12,9,4,Pneumonia,Home,0
+593,72,Female,4,17,4,Pneumonia,Rehab,1
+594,23,Male,13,11,1,Asthma,Home,1
+595,86,Male,7,10,4,COPD,Rehab,1
+596,22,Male,14,17,4,Pneumonia,Home,0
+597,20,Female,9,4,4,Hypertension,Home,0
+598,70,Female,11,16,2,COPD,Home,0
+599,40,Female,12,15,4,Asthma,Home,0
+600,70,Male,7,5,4,COPD,Home,0
+601,54,Female,9,6,4,Diabetes,Skilled Nursing,0
+602,34,Female,12,17,0,COPD,Home,0
+603,18,Male,3,1,2,Hypertension,Rehab,0
+604,68,Female,4,19,1,Diabetes,Home,0
+605,62,Male,14,4,0,Heart Failure,Skilled Nursing,0
+606,21,Male,8,17,3,Asthma,Home,0
+607,79,Female,6,9,2,Asthma,Home,0
+608,82,Male,5,2,2,COPD,Skilled Nursing,1
+609,49,Female,13,8,3,Pneumonia,Home,0
+610,51,Female,4,15,3,Diabetes,Home,0
+611,89,Female,8,7,3,Heart Failure,Home,0
+612,56,Male,1,6,1,Diabetes,Home,0
+613,43,Female,14,1,4,Asthma,Home,0
+614,51,Female,9,15,2,Diabetes,Rehab,0
+615,71,Female,1,7,4,Heart Failure,Home,0
+616,20,Male,8,17,4,Pneumonia,Home,0
+617,67,Male,4,2,3,COPD,Home,0
+618,29,Female,9,9,1,Hypertension,Home,0
+619,82,Male,14,9,0,Diabetes,Home,0
+620,71,Female,11,13,1,Hypertension,Skilled Nursing,0
+621,22,Female,5,6,4,Asthma,Home,1
+622,74,Female,3,6,1,COPD,Skilled Nursing,0
+623,34,Female,9,3,3,COPD,Home,0
+624,64,Female,11,17,0,Diabetes,Home,0
+625,40,Female,14,17,3,Pneumonia,Home,1
+626,31,Female,14,12,0,COPD,Home,1
+627,83,Female,9,16,4,Diabetes,Home,1
+628,68,Male,4,15,0,Diabetes,Home,1
+629,55,Male,11,13,0,Hypertension,Skilled Nursing,0
+630,81,Female,4,1,0,COPD,Home,0
+631,55,Male,12,17,1,Diabetes,Rehab,0
+632,67,Male,8,3,1,Hypertension,Home,0
+633,47,Male,2,15,4,Heart Failure,Skilled Nursing,0
+634,68,Female,9,4,0,Hypertension,Rehab,0
+635,80,Female,13,4,2,Hypertension,Home,0
+636,69,Female,14,18,4,Diabetes,Rehab,1
+637,55,Female,6,17,0,Asthma,Home,0
+638,47,Female,9,19,0,Asthma,Rehab,0
+639,68,Male,8,11,1,Pneumonia,Home,1
+640,22,Female,7,3,4,Asthma,Home,0
+641,46,Male,13,8,0,Hypertension,Rehab,0
+642,21,Female,14,14,0,Pneumonia,Home,0
+643,27,Female,1,1,4,Diabetes,Home,0
+644,73,Male,14,14,2,COPD,Skilled Nursing,1
+645,34,Male,12,2,4,Hypertension,Home,0
+646,34,Male,3,4,4,Hypertension,Home,0
+647,86,Male,11,19,2,Pneumonia,Home,0
+648,51,Male,14,6,4,Diabetes,Home,1
+649,23,Female,2,1,0,Heart Failure,Against Advice,0
+650,70,Female,5,17,4,Hypertension,Home,0
+651,83,Female,5,8,2,Heart Failure,Home,0
+652,60,Female,5,19,3,Heart Failure,Home,0
+653,40,Female,4,1,4,Asthma,Skilled Nursing,0
+654,72,Female,5,5,1,Diabetes,Home,0
+655,33,Male,3,16,0,Heart Failure,Home,0
+656,25,Female,12,6,0,Diabetes,Skilled Nursing,0
+657,21,Male,1,8,1,Asthma,Home,0
+658,21,Other,5,13,1,Diabetes,Home,1
+659,73,Female,13,16,4,Hypertension,Home,1
+660,42,Female,9,3,1,Heart Failure,Home,0
+661,84,Male,13,19,3,Diabetes,Home,0
+662,84,Female,9,12,2,COPD,Home,0
+663,44,Female,4,16,1,Diabetes,Skilled Nursing,0
+664,49,Male,3,11,1,Heart Failure,Home,0
+665,67,Male,1,10,3,Asthma,Rehab,1
+666,78,Female,2,4,0,Asthma,Home,1
+667,68,Male,8,12,0,Heart Failure,Rehab,1
+668,36,Female,1,2,4,Hypertension,Rehab,0
+669,38,Male,8,19,3,Hypertension,Home,0
+670,22,Male,13,5,2,Asthma,Home,1
+671,59,Female,7,8,2,Asthma,Home,0
+672,78,Male,8,7,3,Heart Failure,Skilled Nursing,1
+673,39,Female,12,14,2,Hypertension,Skilled Nursing,0
+674,38,Male,6,3,0,Asthma,Home,0
+675,87,Male,12,18,2,Hypertension,Home,0
+676,18,Female,14,16,2,Asthma,Home,0
+677,22,Female,9,19,3,Diabetes,Rehab,0
+678,29,Female,3,19,3,COPD,Home,0
+679,63,Female,10,18,2,Pneumonia,Home,0
+680,51,Female,4,16,1,Diabetes,Home,0
+681,66,Male,13,8,3,Pneumonia,Home,0
+682,62,Male,6,1,4,Asthma,Rehab,0
+683,44,Female,8,17,4,COPD,Home,0
+684,43,Female,5,12,0,COPD,Home,0
+685,64,Female,3,11,2,Asthma,Home,1
+686,73,Male,6,5,1,Asthma,Home,0
+687,80,Male,4,12,0,Hypertension,Home,0
+688,65,Female,9,17,2,Asthma,Against Advice,0
+689,78,Female,13,6,3,Heart Failure,Rehab,0
+690,43,Female,3,1,4,Asthma,Home,0
+691,53,Female,4,5,1,Heart Failure,Home,0
+692,18,Female,7,14,4,Asthma,Skilled Nursing,0
+693,25,Male,7,5,3,Hypertension,Home,0
+694,69,Male,12,1,2,Heart Failure,Home,0
+695,64,Male,12,18,3,Diabetes,Skilled Nursing,0
+696,73,Male,4,16,3,Heart Failure,Skilled Nursing,1
+697,31,Female,6,9,4,Hypertension,Against Advice,0
+698,45,Male,12,19,1,Pneumonia,Skilled Nursing,0
+699,19,Female,13,5,3,Heart Failure,Skilled Nursing,1
+700,43,Male,3,2,4,Asthma,Home,0
+701,31,Male,6,15,1,Asthma,Home,0
+702,76,Male,12,7,2,Pneumonia,Home,0
+703,73,Male,2,4,2,Hypertension,Home,1
+704,24,Female,8,1,0,COPD,Home,0
+705,20,Male,2,13,4,Asthma,Home,1
+706,40,Female,11,7,1,Diabetes,Home,0
+707,35,Male,7,15,3,Hypertension,Home,1
+708,55,Male,9,14,2,Heart Failure,Home,0
+709,32,Male,1,19,1,Heart Failure,Home,0
+710,81,Female,8,18,4,Diabetes,Home,0
+711,45,Female,7,10,0,Asthma,Rehab,0
+712,56,Male,6,9,2,Hypertension,Home,1
+713,74,Male,6,8,1,Diabetes,Home,0
+714,34,Female,6,10,1,Asthma,Rehab,0
+715,61,Male,9,17,1,Hypertension,Home,0
+716,42,Male,2,2,4,Heart Failure,Home,0
+717,34,Female,1,6,4,Hypertension,Home,0
+718,30,Female,13,5,4,Pneumonia,Home,1
+719,42,Male,12,9,3,COPD,Skilled Nursing,0
+720,85,Female,6,5,1,Hypertension,Home,0
+721,27,Female,10,18,2,COPD,Home,0
+722,84,Male,11,9,4,Hypertension,Home,0
+723,35,Female,8,17,4,COPD,Home,0
+724,51,Female,3,17,1,Pneumonia,Home,0
+725,25,Male,12,12,4,Heart Failure,Home,1
+726,57,Male,10,7,3,Asthma,Home,0
+727,59,Male,1,3,3,COPD,Home,1
+728,58,Female,9,10,4,Pneumonia,Home,1
+729,23,Male,13,2,1,COPD,Home,0
+730,69,Female,13,3,1,Heart Failure,Home,0
+731,43,Female,1,16,1,COPD,Skilled Nursing,0
+732,81,Male,3,2,0,Pneumonia,Home,1
+733,76,Female,8,10,4,Pneumonia,Home,0
+734,73,Male,14,6,1,Diabetes,Home,0
+735,76,Female,3,11,3,Heart Failure,Home,0
+736,87,Female,13,7,2,Diabetes,Rehab,0
+737,50,Male,4,15,2,Heart Failure,Home,0
+738,70,Male,8,6,1,COPD,Skilled Nursing,0
+739,39,Male,1,9,2,Pneumonia,Home,0
+740,38,Male,13,12,2,Diabetes,Skilled Nursing,0
+741,87,Male,13,19,0,COPD,Home,0
+742,87,Male,6,3,3,Pneumonia,Skilled Nursing,1
+743,21,Other,1,15,3,Heart Failure,Home,0
+744,79,Male,14,2,0,Pneumonia,Home,0
+745,79,Male,1,2,0,COPD,Home,1
+746,41,Female,14,3,2,Diabetes,Home,1
+747,72,Male,8,6,4,Diabetes,Against Advice,0
+748,26,Other,11,15,2,Pneumonia,Home,1
+749,20,Female,4,10,0,COPD,Home,0
+750,48,Female,12,9,3,Hypertension,Home,0
+751,57,Male,1,1,2,Heart Failure,Home,0
+752,53,Male,10,16,4,Heart Failure,Home,1
+753,41,Male,7,6,2,COPD,Home,0
+754,23,Female,5,9,1,Hypertension,Home,0
+755,83,Male,5,4,2,Diabetes,Skilled Nursing,0
+756,21,Male,1,2,0,Asthma,Home,0
+757,23,Other,14,4,3,Asthma,Home,0
+758,68,Male,10,1,3,COPD,Rehab,0
+759,79,Male,11,19,0,Hypertension,Home,0
+760,74,Male,6,10,1,Hypertension,Home,0
+761,83,Other,14,15,0,Heart Failure,Home,0
+762,25,Male,9,19,2,Diabetes,Home,1
+763,43,Female,9,16,0,Pneumonia,Home,0
+764,68,Female,8,4,0,Hypertension,Skilled Nursing,0
+765,62,Male,5,2,1,Pneumonia,Home,0
+766,61,Female,1,13,2,Asthma,Home,0
+767,22,Male,9,1,4,Pneumonia,Skilled Nursing,0
+768,87,Male,1,17,4,Diabetes,Against Advice,1
+769,43,Female,8,13,3,Diabetes,Home,1
+770,85,Female,5,4,0,Pneumonia,Home,0
+771,36,Female,3,7,3,COPD,Home,0
+772,37,Female,11,17,1,Hypertension,Skilled Nursing,1
+773,29,Male,7,9,4,COPD,Skilled Nursing,0
+774,64,Male,7,4,0,Pneumonia,Home,0
+775,18,Male,9,19,1,Hypertension,Home,0
+776,31,Male,7,1,1,Heart Failure,Home,0
+777,81,Male,13,10,0,COPD,Rehab,0
+778,55,Male,11,4,1,COPD,Home,0
+779,54,Male,14,9,0,Pneumonia,Home,0
+780,28,Male,3,13,0,Asthma,Against Advice,0
+781,20,Female,11,14,2,Pneumonia,Home,1
+782,50,Female,13,10,3,COPD,Home,0
+783,23,Male,14,6,1,Hypertension,Home,0
+784,67,Female,13,16,1,Asthma,Home,0
+785,27,Female,1,6,2,Pneumonia,Home,0
+786,22,Male,8,17,2,Pneumonia,Home,0
+787,40,Female,12,10,2,COPD,Home,0
+788,27,Female,3,18,4,COPD,Skilled Nursing,0
+789,61,Female,12,18,4,Heart Failure,Home,0
+790,19,Male,8,3,4,Pneumonia,Home,0
+791,30,Female,8,15,0,COPD,Home,1
+792,57,Male,13,15,1,Diabetes,Rehab,0
+793,19,Female,5,4,3,Asthma,Rehab,0
+794,82,Female,13,9,0,Diabetes,Home,0
+795,80,Female,12,19,1,Asthma,Home,0
+796,34,Female,13,17,1,Pneumonia,Home,0
+797,26,Female,1,11,2,Heart Failure,Home,0
+798,32,Male,13,9,2,COPD,Home,0
+799,41,Male,10,10,0,COPD,Skilled Nursing,0
+800,55,Female,7,18,2,COPD,Skilled Nursing,0
+801,52,Male,12,13,1,Pneumonia,Home,0
+802,66,Male,10,8,2,Asthma,Rehab,0
+803,86,Male,5,7,4,COPD,Skilled Nursing,1
+804,79,Male,8,17,2,Diabetes,Home,0
+805,77,Female,9,15,1,COPD,Home,1
+806,67,Female,11,15,0,Pneumonia,Skilled Nursing,0
+807,26,Female,14,1,3,Heart Failure,Home,0
+808,51,Female,7,14,2,Diabetes,Skilled Nursing,0
+809,52,Male,14,5,1,COPD,Against Advice,0
+810,18,Male,13,11,3,COPD,Home,0
+811,57,Female,7,16,3,Hypertension,Skilled Nursing,1
+812,81,Male,1,2,4,Asthma,Rehab,0
+813,39,Female,4,8,3,Diabetes,Home,0
+814,77,Female,2,11,1,Hypertension,Home,0
+815,81,Male,2,18,1,Heart Failure,Home,0
+816,89,Female,2,3,2,Asthma,Home,0
+817,28,Female,4,1,2,Diabetes,Home,0
+818,31,Female,14,11,2,COPD,Home,0
+819,77,Male,1,16,3,Diabetes,Home,0
+820,47,Male,4,18,3,COPD,Home,0
+821,52,Female,2,16,4,Asthma,Rehab,0
+822,54,Male,5,10,2,COPD,Against Advice,0
+823,22,Male,3,18,0,Heart Failure,Against Advice,0
+824,43,Female,12,6,4,Pneumonia,Home,0
+825,79,Male,8,19,0,COPD,Skilled Nursing,1
+826,21,Female,4,4,3,Heart Failure,Rehab,0
+827,59,Female,1,13,4,Pneumonia,Home,1
+828,35,Female,1,14,4,Asthma,Home,0
+829,57,Male,12,3,1,Asthma,Home,0
+830,89,Female,10,10,3,Diabetes,Skilled Nursing,0
+831,56,Male,3,6,3,Heart Failure,Home,0
+832,31,Male,9,1,4,Heart Failure,Home,0
+833,49,Female,7,14,3,Hypertension,Home,1
+834,68,Male,2,8,4,Hypertension,Home,0
+835,55,Male,13,19,1,Pneumonia,Home,0
+836,40,Female,9,14,4,Pneumonia,Home,0
+837,80,Male,10,10,3,Hypertension,Home,0
+838,32,Male,2,17,3,Pneumonia,Rehab,0
+839,42,Female,3,9,4,COPD,Home,0
+840,34,Female,11,6,4,Hypertension,Home,0
+841,83,Female,13,11,4,Heart Failure,Home,1
+842,70,Male,10,7,2,COPD,Home,0
+843,68,Male,14,17,3,Pneumonia,Home,0
+844,56,Male,2,1,3,Asthma,Home,0
+845,68,Male,3,5,2,Diabetes,Rehab,0
+846,87,Female,6,9,4,Hypertension,Rehab,0
+847,23,Male,9,18,1,Asthma,Skilled Nursing,0
+848,84,Male,9,2,4,Pneumonia,Home,0
+849,24,Female,7,11,4,Heart Failure,Home,1
+850,68,Female,12,6,2,Diabetes,Skilled Nursing,0
+851,89,Female,3,8,3,Asthma,Home,0
+852,59,Male,4,4,4,Diabetes,Home,0
+853,81,Male,6,18,3,Hypertension,Home,0
+854,32,Male,11,11,0,Pneumonia,Home,0
+855,46,Male,5,5,3,Heart Failure,Home,1
+856,50,Female,2,15,1,Pneumonia,Against Advice,0
+857,44,Female,13,18,1,Diabetes,Home,0
+858,53,Female,6,2,4,Asthma,Home,1
+859,46,Female,3,11,3,Hypertension,Against Advice,0
+860,55,Male,14,13,4,Hypertension,Against Advice,0
+861,74,Female,8,4,2,Pneumonia,Home,0
+862,44,Male,2,7,1,Asthma,Home,0
+863,72,Female,1,11,4,Asthma,Skilled Nursing,0
+864,50,Female,9,4,2,Diabetes,Rehab,0
+865,85,Male,14,15,4,Pneumonia,Home,1
+866,83,Male,12,1,3,Pneumonia,Skilled Nursing,0
+867,27,Other,3,3,3,COPD,Home,0
+868,22,Male,11,14,3,Pneumonia,Home,0
+869,55,Male,1,6,3,Hypertension,Home,0
+870,30,Male,7,18,0,Diabetes,Home,0
+871,48,Female,13,1,2,Asthma,Rehab,1
+872,64,Female,10,6,2,Pneumonia,Home,1
+873,69,Female,5,6,3,Diabetes,Home,0
+874,73,Male,5,16,0,Pneumonia,Home,0
+875,32,Female,14,5,3,Asthma,Home,0
+876,46,Male,1,17,0,Heart Failure,Home,0
+877,25,Female,9,10,3,Asthma,Home,0
+878,22,Female,7,18,1,Asthma,Home,0
+879,46,Male,8,7,1,Asthma,Rehab,0
+880,64,Male,9,3,4,Pneumonia,Home,1
+881,85,Male,6,13,3,COPD,Home,0
+882,62,Male,12,15,2,Asthma,Skilled Nursing,0
+883,19,Male,5,19,4,Hypertension,Home,0
+884,44,Female,6,3,1,Hypertension,Home,0
+885,53,Female,11,4,3,Diabetes,Against Advice,0
+886,53,Male,2,5,4,COPD,Home,0
+887,43,Male,4,1,3,Diabetes,Home,1
+888,60,Male,3,4,1,Hypertension,Home,0
+889,44,Female,13,12,4,Hypertension,Home,0
+890,86,Male,7,10,1,Heart Failure,Against Advice,0
+891,37,Female,9,13,0,Asthma,Home,0
+892,28,Female,5,14,1,Hypertension,Rehab,0
+893,55,Female,6,5,3,Pneumonia,Rehab,1
+894,23,Female,10,4,2,Pneumonia,Home,0
+895,89,Male,14,14,1,Diabetes,Home,0
+896,40,Female,12,10,2,Diabetes,Home,0
+897,64,Male,12,17,0,Asthma,Home,1
+898,63,Male,2,10,4,Asthma,Home,0
+899,29,Female,3,7,4,Heart Failure,Skilled Nursing,0
+900,30,Female,3,16,2,COPD,Against Advice,0
+901,79,Female,12,1,4,Diabetes,Home,0
+902,77,Male,12,17,1,Asthma,Home,0
+903,60,Male,9,9,2,Diabetes,Rehab,0
+904,85,Female,7,6,3,Asthma,Home,0
+905,22,Male,8,19,1,Hypertension,Skilled Nursing,0
+906,54,Female,11,13,1,Diabetes,Home,0
+907,89,Female,10,3,1,Hypertension,Home,0
+908,48,Female,11,7,3,Diabetes,Skilled Nursing,0
+909,26,Male,9,9,0,COPD,Home,0
+910,68,Male,6,5,4,Heart Failure,Skilled Nursing,0
+911,46,Male,4,10,2,Pneumonia,Skilled Nursing,0
+912,57,Female,12,17,0,Pneumonia,Home,0
+913,58,Male,1,12,2,Pneumonia,Home,0
+914,28,Female,8,16,4,Hypertension,Against Advice,0
+915,40,Male,7,3,3,Asthma,Skilled Nursing,1
+916,18,Other,2,9,1,Pneumonia,Home,1
+917,63,Male,8,15,1,COPD,Skilled Nursing,1
+918,38,Male,12,5,3,Pneumonia,Home,0
+919,53,Male,5,13,0,Diabetes,Home,0
+920,71,Female,7,14,0,Hypertension,Skilled Nursing,0
+921,74,Female,4,15,2,Diabetes,Home,1
+922,18,Female,5,16,3,Diabetes,Skilled Nursing,1
+923,80,Male,8,13,0,Diabetes,Home,1
+924,71,Male,1,17,3,Heart Failure,Home,1
+925,72,Female,1,8,4,Heart Failure,Home,0
+926,57,Male,4,2,1,Asthma,Home,0
+927,32,Male,3,5,1,Hypertension,Home,0
+928,38,Other,13,6,1,COPD,Home,1
+929,64,Other,10,12,3,COPD,Home,1
+930,70,Female,12,18,3,COPD,Home,1
+931,26,Female,2,1,2,Diabetes,Home,0
+932,69,Male,12,17,1,Heart Failure,Skilled Nursing,1
+933,74,Male,3,11,2,Hypertension,Home,0
+934,43,Female,11,10,1,Diabetes,Home,0
+935,58,Female,11,19,2,Heart Failure,Home,0
+936,52,Male,14,14,2,Heart Failure,Home,0
+937,80,Male,11,10,4,Pneumonia,Home,0
+938,42,Male,1,15,2,Pneumonia,Home,1
+939,55,Female,1,19,3,Hypertension,Home,0
+940,19,Female,6,4,2,Hypertension,Rehab,0
+941,24,Female,5,2,1,Hypertension,Skilled Nursing,1
+942,51,Male,8,9,2,Diabetes,Home,0
+943,34,Other,2,10,0,Asthma,Home,0
+944,60,Female,4,11,1,Hypertension,Home,0
+945,76,Male,8,14,0,Pneumonia,Home,1
+946,68,Male,12,7,1,Asthma,Home,1
+947,71,Male,6,15,3,Diabetes,Home,0
+948,41,Male,1,19,3,Asthma,Home,1
+949,42,Female,4,15,3,COPD,Home,0
+950,88,Male,1,8,0,Asthma,Home,0
+951,69,Female,13,11,4,Hypertension,Home,1
+952,87,Male,2,9,1,Diabetes,Home,0
+953,50,Male,5,15,3,Hypertension,Home,0
+954,66,Male,14,1,1,Pneumonia,Home,1
+955,46,Male,8,1,0,COPD,Home,0
+956,80,Female,8,19,4,Pneumonia,Home,0
+957,39,Female,11,3,0,Hypertension,Home,0
+958,43,Female,3,10,1,Hypertension,Home,0
+959,45,Female,11,8,4,Hypertension,Home,0
+960,66,Male,13,15,4,Heart Failure,Home,0
+961,88,Male,4,10,0,COPD,Home,0
+962,66,Male,10,1,3,Hypertension,Home,0
+963,37,Female,11,18,1,Hypertension,Home,0
+964,80,Male,14,2,2,Pneumonia,Home,0
+965,78,Male,6,19,2,Pneumonia,Skilled Nursing,1
+966,66,Female,11,13,0,Hypertension,Home,0
+967,88,Male,11,1,1,Diabetes,Home,0
+968,18,Male,10,2,1,Heart Failure,Skilled Nursing,1
+969,30,Male,3,16,0,Pneumonia,Skilled Nursing,0
+970,68,Female,2,15,1,Diabetes,Home,1
+971,73,Female,6,13,3,Heart Failure,Home,1
+972,79,Female,11,16,0,Hypertension,Home,0
+973,49,Male,13,17,3,COPD,Home,0
+974,47,Other,5,7,1,Asthma,Home,1
+975,46,Female,14,17,0,Asthma,Home,0
+976,66,Male,10,7,1,Hypertension,Home,0
+977,62,Female,5,13,0,Pneumonia,Skilled Nursing,1
+978,47,Male,10,5,1,Diabetes,Against Advice,0
+979,33,Female,13,17,3,COPD,Home,0
+980,57,Female,5,3,3,Heart Failure,Home,0
+981,36,Male,10,7,1,Hypertension,Home,0
+982,35,Other,12,17,0,COPD,Skilled Nursing,0
+983,18,Female,5,7,2,COPD,Home,0
+984,64,Female,3,1,3,Pneumonia,Home,0
+985,83,Male,7,17,3,Heart Failure,Home,0
+986,55,Male,6,17,2,COPD,Home,0
+987,68,Male,4,11,1,Pneumonia,Home,1
+988,80,Female,2,3,0,Diabetes,Rehab,0
+989,21,Male,12,15,1,Pneumonia,Home,0
+990,18,Female,9,11,4,Diabetes,Home,1
+991,25,Female,1,16,3,Diabetes,Home,1
+992,46,Male,13,9,4,COPD,Home,0
+993,72,Female,13,1,3,Pneumonia,Skilled Nursing,0
+994,20,Male,11,16,3,Diabetes,Skilled Nursing,1
+995,49,Other,14,9,4,Heart Failure,Against Advice,0
+996,27,Female,4,19,4,COPD,Skilled Nursing,0
+997,51,Male,1,12,1,Pneumonia,Home,0
+998,72,Male,13,19,4,Pneumonia,Home,1
+999,49,Male,6,9,1,Asthma,Home,0
+1000,67,Female,4,7,1,Pneumonia,Skilled Nursing,0
